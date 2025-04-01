@@ -1,6 +1,6 @@
-use crate::inputs::prelude::input_str;
-use crate::tasks::structs::Task;
-use crate::tasks::utils::extract_task;
+use crate::internal::inputs::prelude::input_str;
+use crate::internal::tasks::structs::Task;
+use crate::internal::tasks::utils::extract_task;
 
 /// # edit
 /// edits a task's name and changes the task name to a new name specified by the user.

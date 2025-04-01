@@ -1,4 +1,4 @@
-use crate::tasks::structs::Task;
+use crate::internal::tasks::structs::Task;
 
 /// # view
 /// prints out all the tasks passed into the function as

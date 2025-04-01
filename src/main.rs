@@ -1,13 +1,9 @@
-mod inputs;
 mod mainloop;
-mod name;
-mod paths;
-mod tasks;
 
-use crate::paths::get_name_path;
-use crate::tasks::prelude::*;
+use todolist::get_name_path;
+use todolist::{load, Tasks};
 use mainloop::mainloop;
-use name::ret_name_loop;
+use todolist::ret_name_loop;
 use std::io::{stdout, Write};
 
 /// # main

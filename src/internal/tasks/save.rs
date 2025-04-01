@@ -1,6 +1,6 @@
-use crate::paths::get_file_path;
-use crate::tasks::prelude::Tasks;
-use crate::tasks::structs::{Task, TaskStatus};
+use crate::internal::paths::get_file_path;
+use crate::internal::tasks::prelude::Tasks;
+use crate::internal::tasks::structs::{Task, TaskStatus};
 use std::fs;
 use std::fs::File;
 use std::io::Write;

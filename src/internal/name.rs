@@ -1,5 +1,5 @@
-use crate::inputs::prelude::input_str;
-use crate::paths::get_name_path;
+use super::inputs::prelude::input_str;
+use super::paths::get_name_path;
 use std::fs;
 use std::fs::File;
 use std::io::{Read, Write};

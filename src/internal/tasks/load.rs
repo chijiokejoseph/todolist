@@ -1,5 +1,5 @@
-use crate::paths::get_file_path;
-use crate::tasks::structs::{Task, TaskStatus, Tasks};
+use crate::internal::paths::get_file_path;
+use crate::internal::tasks::structs::{Task, TaskStatus, Tasks};
 use std::fs;
 use std::fs::File;
 use std::io::Read;

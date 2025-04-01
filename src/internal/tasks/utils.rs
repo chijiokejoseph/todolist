@@ -1,6 +1,6 @@
-use crate::inputs::prelude::input_num;
-use crate::tasks::prelude::view;
-use crate::tasks::structs::{Task, Tasks};
+use crate::internal::inputs::prelude::input_num;
+use crate::internal::tasks::prelude::view;
+use crate::internal::tasks::structs::{Task, Tasks};
 use std::cmp::max;
 
 /// # ret_last_id

@@ -1,5 +1,5 @@
-use crate::inputs::prelude::input_str;
-use crate::tasks::structs::Task;
+use crate::internal::inputs::prelude::input_str;
+use crate::internal::tasks::structs::Task;
 
 /// # add
 /// prompts the user to enter the name of a new task and then adds that task to a vector of

@@ -1,5 +1,4 @@
-use crate::inputs::prelude::*;
-use crate::tasks::prelude::*;
+use todolist::{add, check, delete, edit, input_option, ret_last_task_id, save, view, Tasks};
 
 /// # mainloop
 /// runs the main block of all the program's operations once.

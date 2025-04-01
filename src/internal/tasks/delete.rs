@@ -1,6 +1,6 @@
-use crate::tasks::prelude::Tasks;
-use crate::tasks::structs::TaskStatus;
-use crate::tasks::utils::extract_task;
+use crate::internal::tasks::prelude::Tasks;
+use crate::internal::tasks::structs::TaskStatus;
+use crate::internal::tasks::utils::extract_task;
 
 /// # delete
 /// deletes a task from the active tasks. Prints out a view of active tasks
